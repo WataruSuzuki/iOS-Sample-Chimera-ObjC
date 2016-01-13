@@ -1,0 +1,15 @@
+{
+    "applinks":{
+        "apps":[],
+        "details":[
+            {
+                "appID":"F35G39V2UB.com.wataru.iOS-Sample-Chimera-ObjC",
+                "paths":["/*"]
+            },
+            {
+                "appID":"F35G39V2UB.com.wataru.iOS-Sample-Chimera-ObjC",
+                "paths":["/*"]
+            }
+        ]
+    }
+}
