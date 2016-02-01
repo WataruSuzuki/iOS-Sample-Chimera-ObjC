@@ -316,6 +316,7 @@
 		F06AD46A1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD46E1D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Sample_Chimera_ObjCUITests.m; sourceTree = "<group>"; };
 		F06AD4701D5D7FD4007B0842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0ADBFAD1DC6CED2005DB1DC /* iOS-Sample-Chimera-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-Sample-Chimera-ObjC.entitlements"; sourceTree = "<group>"; };
 		F0EA7D9A1D5F53A2001E3166 /* GoogleMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsViewController.h; sourceTree = "<group>"; };
 		F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -555,6 +556,7 @@
 		F06AD4481D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				F0ADBFAD1DC6CED2005DB1DC /* iOS-Sample-Chimera-ObjC.entitlements */,
 				609258C41D7670E300968F1E /* GoogleMapSDKDemos */,
 				F0EA7D931D5F50E4001E3166 /* ViewControllers */,
 				F06AD44C1D5D7FD3007B0842 /* AppDelegate.h */,
@@ -681,6 +683,11 @@
 					F06AD4451D5D7FD3007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = F35G39V2UB;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					F06AD45E1D5D7FD4007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1111,6 +1118,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = "iOS-Sample-Chimera-ObjC/iOS-Sample-Chimera-ObjC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = F35G39V2UB;
 				INFOPLIST_FILE = "iOS-Sample-Chimera-ObjC/Info.plist";
@@ -1126,6 +1134,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_ENTITLEMENTS = "iOS-Sample-Chimera-ObjC/iOS-Sample-Chimera-ObjC.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = F35G39V2UB;
 				INFOPLIST_FILE = "iOS-Sample-Chimera-ObjC/Info.plist";
