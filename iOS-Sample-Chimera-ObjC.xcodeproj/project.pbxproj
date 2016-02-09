@@ -101,6 +101,12 @@
 		609259C71D7670E300968F1E /* SDKDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609259681D7670E300968F1E /* SDKDemoAppDelegate.m */; };
 		609259C81D7670E300968F1E /* SDKDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */; };
 		609F8FAD1D7D402E0047E47E /* RestrictionsSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */; };
+		60AA336C1DC82AC500C3ABA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AA336B1DC82AC500C3ABA8 /* main.m */; };
+		60AA336F1DC82AC500C3ABA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AA336E1DC82AC500C3ABA8 /* AppDelegate.m */; };
+		60AA33721DC82AC500C3ABA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AA33711DC82AC500C3ABA8 /* ViewController.m */; };
+		60AA33751DC82AC500C3ABA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AA33731DC82AC500C3ABA8 /* Main.storyboard */; };
+		60AA33771DC82AC500C3ABA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AA33761DC82AC500C3ABA8 /* Assets.xcassets */; };
+		60AA337A1DC82AC500C3ABA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AA33781DC82AC500C3ABA8 /* LaunchScreen.storyboard */; };
 		60ACFFB81D82424300C93F5B /* SetProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ACFFB71D82424300C93F5B /* SetProfileViewController.m */; };
 		A10CBE6E521EAB0033A8977E /* libPods-iOS-Sample-Chimera-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */; };
 		F06AD44B1D5D7FD3007B0842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44A1D5D7FD3007B0842 /* main.m */; };
@@ -297,6 +303,16 @@
 		6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKDemoMasterViewController.m; sourceTree = "<group>"; };
 		609F8FAB1D7D402E0047E47E /* RestrictionsSchemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestrictionsSchemeViewController.h; sourceTree = "<group>"; };
 		609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestrictionsSchemeViewController.m; sourceTree = "<group>"; };
+		60AA33681DC82AC500C3ABA8 /* TestUniversalLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUniversalLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AA336B1DC82AC500C3ABA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60AA336D1DC82AC500C3ABA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60AA336E1DC82AC500C3ABA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60AA33701DC82AC500C3ABA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60AA33711DC82AC500C3ABA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60AA33741DC82AC500C3ABA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60AA33761DC82AC500C3ABA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60AA33791DC82AC500C3ABA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60AA337B1DC82AC500C3ABA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60ACFFB61D82424300C93F5B /* SetProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetProfileViewController.h; sourceTree = "<group>"; };
 		60ACFFB71D82424300C93F5B /* SetProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetProfileViewController.m; sourceTree = "<group>"; };
 		A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -322,6 +338,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		60AA33651DC82AC500C3ABA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F06AD4431D5D7FD3007B0842 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,6 +545,30 @@
 			path = Samples;
 			sourceTree = "<group>";
 		};
+		60AA33691DC82AC500C3ABA8 /* TestUniversalLink */ = {
+			isa = PBXGroup;
+			children = (
+				60AA336D1DC82AC500C3ABA8 /* AppDelegate.h */,
+				60AA336E1DC82AC500C3ABA8 /* AppDelegate.m */,
+				60AA33701DC82AC500C3ABA8 /* ViewController.h */,
+				60AA33711DC82AC500C3ABA8 /* ViewController.m */,
+				60AA33731DC82AC500C3ABA8 /* Main.storyboard */,
+				60AA33761DC82AC500C3ABA8 /* Assets.xcassets */,
+				60AA33781DC82AC500C3ABA8 /* LaunchScreen.storyboard */,
+				60AA337B1DC82AC500C3ABA8 /* Info.plist */,
+				60AA336A1DC82AC500C3ABA8 /* Supporting Files */,
+			);
+			path = TestUniversalLink;
+			sourceTree = "<group>";
+		};
+		60AA336A1DC82AC500C3ABA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60AA336B1DC82AC500C3ABA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B894AD04FA23DB14A754C023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,6 +584,7 @@
 				F06AD4481D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */,
 				F06AD4621D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCTests */,
 				F06AD46D1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests */,
+				60AA33691DC82AC500C3ABA8 /* TestUniversalLink */,
 				F06AD4471D5D7FD3007B0842 /* Products */,
 				52613A0D1A6E0FF48689033F /* Pods */,
 				B894AD04FA23DB14A754C023 /* Frameworks */,
@@ -549,6 +597,7 @@
 				F06AD4461D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC.app */,
 				F06AD45F1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCTests.xctest */,
 				F06AD46A1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests.xctest */,
+				60AA33681DC82AC500C3ABA8 /* TestUniversalLink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -615,6 +664,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		60AA33671DC82AC500C3ABA8 /* TestUniversalLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AA337E1DC82AC500C3ABA8 /* Build configuration list for PBXNativeTarget "TestUniversalLink" */;
+			buildPhases = (
+				60AA33641DC82AC500C3ABA8 /* Sources */,
+				60AA33651DC82AC500C3ABA8 /* Frameworks */,
+				60AA33661DC82AC500C3ABA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUniversalLink;
+			productName = TestUniversalLink;
+			productReference = 60AA33681DC82AC500C3ABA8 /* TestUniversalLink.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F06AD4451D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06AD4731D5D7FD4007B0842 /* Build configuration list for PBXNativeTarget "iOS-Sample-Chimera-ObjC" */;
@@ -680,6 +746,11 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = WataruSuzuki;
 				TargetAttributes = {
+					60AA33671DC82AC500C3ABA8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+					};
 					F06AD4451D5D7FD3007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = F35G39V2UB;
@@ -748,11 +819,22 @@
 				F06AD4451D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */,
 				F06AD45E1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCTests */,
 				F06AD4691D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests */,
+				60AA33671DC82AC500C3ABA8 /* TestUniversalLink */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		60AA33661DC82AC500C3ABA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AA337A1DC82AC500C3ABA8 /* LaunchScreen.storyboard in Resources */,
+				60AA33771DC82AC500C3ABA8 /* Assets.xcassets in Resources */,
+				60AA33751DC82AC500C3ABA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F06AD4441D5D7FD3007B0842 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -889,6 +971,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		60AA33641DC82AC500C3ABA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AA33721DC82AC500C3ABA8 /* ViewController.m in Sources */,
+				60AA336F1DC82AC500C3ABA8 /* AppDelegate.m in Sources */,
+				60AA336C1DC82AC500C3ABA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F06AD4421D5D7FD3007B0842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1007,6 +1099,22 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		60AA33731DC82AC500C3ABA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AA33741DC82AC500C3ABA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60AA33781DC82AC500C3ABA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AA33791DC82AC500C3ABA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		F06AD4521D5D7FD3007B0842 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1026,6 +1134,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		60AA337C1DC82AC500C3ABA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TestUniversalLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.TestUniversalLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60AA337D1DC82AC500C3ABA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = TestUniversalLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.TestUniversalLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F06AD4711D5D7FD4007B0842 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1193,6 +1333,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		60AA337E1DC82AC500C3ABA8 /* Build configuration list for PBXNativeTarget "TestUniversalLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AA337C1DC82AC500C3ABA8 /* Debug */,
+				60AA337D1DC82AC500C3ABA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F06AD4411D5D7FD3007B0842 /* Build configuration list for PBXProject "iOS-Sample-Chimera-ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
