@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="MCE-Fq-adT">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MySamplesListCell" id="MCE-Fq-adT">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MCE-Fq-adT" id="fl5-YR-oqo">
@@ -29,10 +29,31 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="iOS-Sample-Chimera-ObjC" id="EWZ-99-DPh"/>
+                    <connections>
+                        <segue destination="WgS-IQ-1Sg" kind="show" identifier="MENU_QUICKSTART_GOOGLEMAP" id="rPL-e7-9TQ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Orz-O8-p7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="696" y="471"/>
+        </scene>
+        <!--Google Maps View Controller-->
+        <scene sceneID="F9E-8w-TRg">
+            <objects>
+                <viewController storyboardIdentifier="GoogleMapsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WgS-IQ-1Sg" customClass="GoogleMapsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sra-df-owC"/>
+                        <viewControllerLayoutGuide type="bottom" id="HTd-VJ-BSe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YYM-3e-MeX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uev-dm-eYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448" y="471"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bMO-pj-S4G">

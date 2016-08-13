@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10CBE6E521EAB0033A8977E /* libPods-iOS-Sample-Chimera-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */; };
 		F06AD44B1D5D7FD3007B0842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44A1D5D7FD3007B0842 /* main.m */; };
 		F06AD44E1D5D7FD3007B0842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44D1D5D7FD3007B0842 /* AppDelegate.m */; };
 		F06AD4511D5D7FD3007B0842 /* MySamplesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD4501D5D7FD3007B0842 /* MySamplesListViewController.m */; };
@@ -15,6 +16,7 @@
 		F06AD4591D5D7FD3007B0842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06AD4571D5D7FD3007B0842 /* LaunchScreen.storyboard */; };
 		F06AD4641D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD4631D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCTests.m */; };
 		F06AD46F1D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD46E1D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCUITests.m */; };
+		F0EA7D9C1D5F53A2001E3166 /* GoogleMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13E1BCD2B305743C9D7C4F1B /* Pods-iOS-Sample-Chimera-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Sample-Chimera-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		F06AD4461D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD44A1D5D7FD3007B0842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F06AD44C1D5D7FD3007B0842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		F06AD46A1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD46E1D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Sample_Chimera_ObjCUITests.m; sourceTree = "<group>"; };
 		F06AD4701D5D7FD4007B0842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EA7D8C1D5F4EF2001E3166 /* Key-iOS-Sample-Chimera-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Key-iOS-Sample-Chimera-ObjC.h"; path = "../HeaderFiles/Key-iOS-Sample-Chimera-ObjC.h"; sourceTree = "<group>"; };
+		F0EA7D9A1D5F53A2001E3166 /* GoogleMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsViewController.h; sourceTree = "<group>"; };
+		F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10CBE6E521EAB0033A8977E /* libPods-iOS-Sample-Chimera-ObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +87,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52613A0D1A6E0FF48689033F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */,
+				13E1BCD2B305743C9D7C4F1B /* Pods-iOS-Sample-Chimera-ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B894AD04FA23DB14A754C023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F06AD43D1D5D7FD3007B0842 = {
 			isa = PBXGroup;
 			children = (
+				F0EA7D8C1D5F4EF2001E3166 /* Key-iOS-Sample-Chimera-ObjC.h */,
 				F06AD4481D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */,
 				F06AD4621D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCTests */,
 				F06AD46D1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests */,
 				F06AD4471D5D7FD3007B0842 /* Products */,
+				52613A0D1A6E0FF48689033F /* Pods */,
+				B894AD04FA23DB14A754C023 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,7 @@
 		F06AD4481D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				F0EA7D931D5F50E4001E3166 /* ViewControllers */,
 				F06AD44C1D5D7FD3007B0842 /* AppDelegate.h */,
 				F06AD44D1D5D7FD3007B0842 /* AppDelegate.m */,
 				F06AD44F1D5D7FD3007B0842 /* MySamplesListViewController.h */,
@@ -140,6 +170,15 @@
 			path = "iOS-Sample-Chimera-ObjCUITests";
 			sourceTree = "<group>";
 		};
+		F0EA7D931D5F50E4001E3166 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA7D9A1D5F53A2001E3166 /* GoogleMapsViewController.h */,
+				F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06AD4731D5D7FD4007B0842 /* Build configuration list for PBXNativeTarget "iOS-Sample-Chimera-ObjC" */;
 			buildPhases = (
+				3DF3FDE7FC6BEF141FB04506 /* [CP] Check Pods Manifest.lock */,
 				F06AD4421D5D7FD3007B0842 /* Sources */,
 				F06AD4431D5D7FD3007B0842 /* Frameworks */,
 				F06AD4441D5D7FD3007B0842 /* Resources */,
+				24BA27A21AD50800C4224C22 /* [CP] Embed Pods Frameworks */,
+				692FB8474BB780EC2AABF3DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +308,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24BA27A21AD50800C4224C22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF3FDE7FC6BEF141FB04506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		692FB8474BB780EC2AABF3DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F06AD4421D5D7FD3007B0842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +364,7 @@
 				F06AD4511D5D7FD3007B0842 /* MySamplesListViewController.m in Sources */,
 				F06AD44E1D5D7FD3007B0842 /* AppDelegate.m in Sources */,
 				F06AD44B1D5D7FD3007B0842 /* main.m in Sources */,
+				F0EA7D9C1D5F53A2001E3166 /* GoogleMapsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +440,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -394,6 +486,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,6 +507,7 @@
 		};
 		F06AD4741D5D7FD4007B0842 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -427,6 +521,7 @@
 		};
 		F06AD4751D5D7FD4007B0842 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E1BCD2B305743C9D7C4F1B /* Pods-iOS-Sample-Chimera-ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

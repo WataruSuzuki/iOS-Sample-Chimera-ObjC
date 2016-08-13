@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Key-iOS-Sample-Chimera-ObjC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:MY_GOOGLEMAPS_KEY];
     return YES;
 }
 

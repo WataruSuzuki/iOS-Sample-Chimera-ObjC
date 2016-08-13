@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+enum {
+    MENU_QUICKSTART_GOOGLEMAP,
+    MENU_MAX
+};
+
 @interface MySamplesListViewController : UITableViewController
 
 
