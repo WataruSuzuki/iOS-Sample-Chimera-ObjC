@@ -56,7 +56,7 @@
 		F06AD46A1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD46E1D5D7FD4007B0842 /* iOS_Sample_Chimera_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Sample_Chimera_ObjCUITests.m; sourceTree = "<group>"; };
 		F06AD4701D5D7FD4007B0842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0EA7D8C1D5F4EF2001E3166 /* Key-iOS-Sample-Chimera-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Key-iOS-Sample-Chimera-ObjC.h"; path = "../HeaderFiles/Key-iOS-Sample-Chimera-ObjC.h"; sourceTree = "<group>"; };
+		F0B08B051D71500B00D268B6 /* Key-iOS-Sample-Chimera-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Key-iOS-Sample-Chimera-ObjC.h"; path = "../../MyProjects/KeyOf3rdServices/Key-iOS-Sample-Chimera-ObjC.h"; sourceTree = "<group>"; };
 		F0EA7D9A1D5F53A2001E3166 /* GoogleMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsViewController.h; sourceTree = "<group>"; };
 		F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 		F06AD43D1D5D7FD3007B0842 = {
 			isa = PBXGroup;
 			children = (
-				F0EA7D8C1D5F4EF2001E3166 /* Key-iOS-Sample-Chimera-ObjC.h */,
+				F0B08B051D71500B00D268B6 /* Key-iOS-Sample-Chimera-ObjC.h */,
 				F06AD4481D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC */,
 				F06AD4621D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCTests */,
 				F06AD46D1D5D7FD4007B0842 /* iOS-Sample-Chimera-ObjCUITests */,
