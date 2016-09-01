@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/StructuredGeocoderViewController.h"
+#import /*"SDKDemos/Samples/ */"StructuredGeocoderViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

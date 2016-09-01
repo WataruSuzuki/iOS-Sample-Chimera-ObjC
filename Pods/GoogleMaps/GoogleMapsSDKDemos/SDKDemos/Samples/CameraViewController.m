@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/CameraViewController.h"
+#import /*"SDKDemos/Samples/ */"CameraViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

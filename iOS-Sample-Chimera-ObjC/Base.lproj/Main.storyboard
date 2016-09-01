@@ -18,7 +18,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MCE-Fq-adT" id="fl5-YR-oqo">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -30,7 +30,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="iOS-Sample-Chimera-ObjC" id="EWZ-99-DPh"/>
                     <connections>
-                        <segue destination="WgS-IQ-1Sg" kind="show" identifier="MENU_QUICKSTART_GOOGLEMAP" id="rPL-e7-9TQ"/>
+                        <segue destination="WgS-IQ-1Sg" kind="show" identifier="MENU_DEMO_GOOGLEMAP" id="rPL-e7-9TQ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Orz-O8-p7n" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 enum {
-    MENU_QUICKSTART_GOOGLEMAP,
+    MENU_DEMO_GOOGLEMAP,
     MENU_MAX
 };
 

@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/MyLocationViewController.h"
+#import /*"SDKDemos/Samples/ */"MyLocationViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

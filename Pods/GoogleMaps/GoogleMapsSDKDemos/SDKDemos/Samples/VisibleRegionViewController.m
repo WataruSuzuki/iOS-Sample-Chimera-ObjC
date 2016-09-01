@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/VisibleRegionViewController.h"
+#import /*"SDKDemos/Samples/ */"VisibleRegionViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

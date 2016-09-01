@@ -8,6 +8,7 @@
 
 #import "GoogleMapsViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import /*"SDKDemos/ */"SDKDemoMasterViewController.h"
 
 @interface GoogleMapsViewController ()
 
@@ -22,7 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self loadGoogleMaps];
+    //[self loadQuickGoogleMaps];
+    [self startDemo];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,20 +42,31 @@
 }
 */
 
-- (void)loadGoogleMaps {
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-                                                            longitude:151.20
-                                                                 zoom:6];
-    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
-    mapView_.myLocationEnabled = YES;
-    self.view = mapView_;
+//- (void)loadQuickGoogleMaps {
+//    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
+//                                                            longitude:151.20
+//                                                                 zoom:6];
+//    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+//    mapView_.myLocationEnabled = YES;
+//    self.view = mapView_;
+//    
+//    // Creates a marker in the center of the map.
+//    GMSMarker *marker = [[GMSMarker alloc] init];
+//    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
+//    marker.title = @"Sydney";
+//    marker.snippet = @"Australia";
+//    marker.map = mapView_;
+//}
+
+- (void)startDemo
+{
+    NSMutableArray *viewControllers = [self.navigationController.viewControllers mutableCopy];
+    [viewControllers removeLastObject];
     
-    // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
-    marker.map = mapView_;
+    SDKDemoMasterViewController *controller = [[SDKDemoMasterViewController alloc] init];
+    [viewControllers addObject:controller];
+    
+    [self.navigationController setViewControllers:[viewControllers copy] animated:NO];
 }
 
 @end

@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/TileLayerViewController.h"
+#import /*"SDKDemos/Samples/ */"TileLayerViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/AnimatedCurrentLocationViewController.h"
+#import /*"SDKDemos/Samples/ */"AnimatedCurrentLocationViewController.h"
 
 @implementation AnimatedCurrentLocationViewController {
   CLLocationManager *manager_;

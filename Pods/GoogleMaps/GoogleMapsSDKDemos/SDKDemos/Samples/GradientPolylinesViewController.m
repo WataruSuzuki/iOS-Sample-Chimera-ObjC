@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/GradientPolylinesViewController.h"
+#import /*"SDKDemos/Samples/ */"GradientPolylinesViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

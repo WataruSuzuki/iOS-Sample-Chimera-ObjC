@@ -2,10 +2,10 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/SDKDemoAppDelegate.h"
+#import /*"SDKDemos/ */"SDKDemoAppDelegate.h"
 
-#import "SDKDemos/SDKDemoAPIKey.h"
-#import "SDKDemos/SDKDemoMasterViewController.h"
+#import /*"SDKDemos/ */"SDKDemoAPIKey.h"
+#import /*"SDKDemos/ */"SDKDemoMasterViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 
 @implementation SDKDemoAppDelegate {

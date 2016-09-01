@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/MapZoomViewController.h"
+#import /*"SDKDemos/Samples/ */"MapZoomViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

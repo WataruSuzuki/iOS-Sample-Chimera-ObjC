@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/PolylinesViewController.h"
+#import /*"SDKDemos/Samples/ */"PolylinesViewController.h"
 
 #import <GoogleMaps/GoogleMaps.h>
 

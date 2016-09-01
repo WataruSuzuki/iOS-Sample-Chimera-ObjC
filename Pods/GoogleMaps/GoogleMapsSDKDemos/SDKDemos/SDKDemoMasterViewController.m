@@ -2,10 +2,10 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/SDKDemoMasterViewController.h"
+#import /*"SDKDemos/ */"SDKDemoMasterViewController.h"
 
-#import "SDKDemos/Samples/Samples.h"
-#import "SDKDemos/SDKDemoAppDelegate.h"
+#import /*"SDKDemos/Samples/ */"Samples.h"
+#import /*"SDKDemos/ */"SDKDemoAppDelegate.h"
 #import <GoogleMaps/GoogleMaps.h>
 
 @implementation SDKDemoMasterViewController {
@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  isPhone_ = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone;
+    isPhone_ = YES;//[[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone;
 
   if (!isPhone_) {
     self.clearsSelectionOnViewWillAppear = NO;

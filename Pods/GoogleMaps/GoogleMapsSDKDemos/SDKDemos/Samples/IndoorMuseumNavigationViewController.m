@@ -2,7 +2,7 @@
 #error "This file requires ARC support."
 #endif
 
-#import "SDKDemos/Samples/IndoorMuseumNavigationViewController.h"
+#import /*"SDKDemos/Samples/ */"IndoorMuseumNavigationViewController.h"
 
 @implementation IndoorMuseumNavigationViewController {
   GMSMapView *mapView_;
