@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZGP-zP-M6p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZGP-zP-M6p">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -30,7 +30,8 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="iOS-Sample-Chimera-ObjC" id="EWZ-99-DPh"/>
                     <connections>
-                        <segue destination="WgS-IQ-1Sg" kind="show" identifier="MENU_DEMO_GOOGLEMAP" id="rPL-e7-9TQ"/>
+                        <segue destination="WgS-IQ-1Sg" kind="show" identifier="Demo-GoogleMaps-SDK" id="rPL-e7-9TQ"/>
+                        <segue destination="NWF-Pp-zNR" kind="show" identifier="Restrictions URL Scheme" id="ql9-CJ-Ulg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Orz-O8-p7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,6 +55,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uev-dm-eYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1448" y="471"/>
+        </scene>
+        <!--Restrictions Scheme View Controller-->
+        <scene sceneID="drV-hm-K21">
+            <objects>
+                <tableViewController storyboardIdentifier="RestrictionsSchemeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NWF-Pp-zNR" customClass="RestrictionsSchemeViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dFH-d9-ipf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestrictionsSchemeCell" textLabel="tHz-bU-IBW" style="IBUITableViewCellStyleDefault" id="FIW-pR-483">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FIW-pR-483" id="y5b-fN-zIx">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tHz-bU-IBW">
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NWF-Pp-zNR" id="n43-GI-DVS"/>
+                            <outlet property="delegate" destination="NWF-Pp-zNR" id="sjL-Rz-o6L"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QrJ-kw-dEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1444" y="1205"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bMO-pj-S4G">

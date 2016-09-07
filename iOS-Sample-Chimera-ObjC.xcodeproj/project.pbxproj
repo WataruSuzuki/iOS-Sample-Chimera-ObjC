@@ -99,6 +99,7 @@
 		609259C61D7670E300968F1E /* SDKDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609259641D7670E300968F1E /* SDKDemo-Info.plist */; };
 		609259C71D7670E300968F1E /* SDKDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609259681D7670E300968F1E /* SDKDemoAppDelegate.m */; };
 		609259C81D7670E300968F1E /* SDKDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */; };
+		609F8FAD1D7D402E0047E47E /* RestrictionsSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */; };
 		A10CBE6E521EAB0033A8977E /* libPods-iOS-Sample-Chimera-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */; };
 		F06AD44B1D5D7FD3007B0842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44A1D5D7FD3007B0842 /* main.m */; };
 		F06AD44E1D5D7FD3007B0842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44D1D5D7FD3007B0842 /* AppDelegate.m */; };
@@ -291,6 +292,8 @@
 		609259681D7670E300968F1E /* SDKDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKDemoAppDelegate.m; sourceTree = "<group>"; };
 		609259691D7670E300968F1E /* SDKDemoMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDemoMasterViewController.h; sourceTree = "<group>"; };
 		6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKDemoMasterViewController.m; sourceTree = "<group>"; };
+		609F8FAB1D7D402E0047E47E /* RestrictionsSchemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestrictionsSchemeViewController.h; sourceTree = "<group>"; };
+		609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestrictionsSchemeViewController.m; sourceTree = "<group>"; };
 		A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		F06AD4461D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD44A1D5D7FD3007B0842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -593,6 +596,8 @@
 			children = (
 				F0EA7D9A1D5F53A2001E3166 /* GoogleMapsViewController.h */,
 				F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */,
+				609F8FAB1D7D402E0047E47E /* RestrictionsSchemeViewController.h */,
+				609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -667,7 +672,6 @@
 				TargetAttributes = {
 					F06AD4451D5D7FD3007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = F35G39V2UB;
 					};
 					F06AD45E1D5D7FD4007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -887,6 +891,7 @@
 				609259C11D7670E300968F1E /* Samples.m in Sources */,
 				609259B11D7670E300968F1E /* GestureControlViewController.m in Sources */,
 				609259AB1D7670E300968F1E /* CustomIndoorViewController.m in Sources */,
+				609F8FAD1D7D402E0047E47E /* RestrictionsSchemeViewController.m in Sources */,
 				609259AC1D7670E300968F1E /* CustomMarkersViewController.m in Sources */,
 				609259B01D7670E300968F1E /* GeocoderViewController.m in Sources */,
 				609259B21D7670E300968F1E /* GradientPolylinesViewController.m in Sources */,

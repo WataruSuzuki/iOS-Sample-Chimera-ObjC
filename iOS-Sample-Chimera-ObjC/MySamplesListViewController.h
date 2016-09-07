@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 enum {
-    MENU_DEMO_GOOGLEMAP,
+    DEMO_GOOGLEMAP_SDK,
+    RESTRICTIONS_URL_SCHEMES,
     MENU_MAX
 };
 
