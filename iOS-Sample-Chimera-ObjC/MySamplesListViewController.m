@@ -22,6 +22,7 @@
     
     self.mySamplesList = @[@"Demo-GoogleMaps-SDK",
                            @"Restrictions URL Scheme",
+                           @"Set configuration profile",
                            @"(・∀・)"];
 }
 

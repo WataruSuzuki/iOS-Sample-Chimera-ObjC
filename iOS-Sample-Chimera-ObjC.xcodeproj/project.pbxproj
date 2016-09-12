@@ -100,6 +100,7 @@
 		609259C71D7670E300968F1E /* SDKDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609259681D7670E300968F1E /* SDKDemoAppDelegate.m */; };
 		609259C81D7670E300968F1E /* SDKDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */; };
 		609F8FAD1D7D402E0047E47E /* RestrictionsSchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */; };
+		60ACFFB81D82424300C93F5B /* SetProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ACFFB71D82424300C93F5B /* SetProfileViewController.m */; };
 		A10CBE6E521EAB0033A8977E /* libPods-iOS-Sample-Chimera-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4662EF228AC3416CCC4C2739 /* libPods-iOS-Sample-Chimera-ObjC.a */; };
 		F06AD44B1D5D7FD3007B0842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44A1D5D7FD3007B0842 /* main.m */; };
 		F06AD44E1D5D7FD3007B0842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06AD44D1D5D7FD3007B0842 /* AppDelegate.m */; };
@@ -294,6 +295,8 @@
 		6092596A1D7670E300968F1E /* SDKDemoMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKDemoMasterViewController.m; sourceTree = "<group>"; };
 		609F8FAB1D7D402E0047E47E /* RestrictionsSchemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestrictionsSchemeViewController.h; sourceTree = "<group>"; };
 		609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestrictionsSchemeViewController.m; sourceTree = "<group>"; };
+		60ACFFB61D82424300C93F5B /* SetProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetProfileViewController.h; sourceTree = "<group>"; };
+		60ACFFB71D82424300C93F5B /* SetProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetProfileViewController.m; sourceTree = "<group>"; };
 		A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		F06AD4461D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD44A1D5D7FD3007B0842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -598,6 +601,8 @@
 				F0EA7D9B1D5F53A2001E3166 /* GoogleMapsViewController.m */,
 				609F8FAB1D7D402E0047E47E /* RestrictionsSchemeViewController.h */,
 				609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */,
+				60ACFFB61D82424300C93F5B /* SetProfileViewController.h */,
+				60ACFFB71D82424300C93F5B /* SetProfileViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -887,6 +892,7 @@
 				F06AD4511D5D7FD3007B0842 /* MySamplesListViewController.m in Sources */,
 				609259B51D7670E300968F1E /* IndoorViewController.m in Sources */,
 				609259A81D7670E300968F1E /* AnimatedCurrentLocationViewController.m in Sources */,
+				60ACFFB81D82424300C93F5B /* SetProfileViewController.m in Sources */,
 				609259BE1D7670E300968F1E /* PanoramaViewController.m in Sources */,
 				609259C11D7670E300968F1E /* Samples.m in Sources */,
 				609259B11D7670E300968F1E /* GestureControlViewController.m in Sources */,
