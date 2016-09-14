@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		608B5A641D893C86002390F3 /* nodata.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = 60FA69D01D89359900D15432 /* nodata.mobileconfig */; };
 		6092596D1D7670E300968F1E /* aeroplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 609258C81D7670E300968F1E /* aeroplane.png */; };
 		6092596E1D7670E300968F1E /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609258C91D7670E300968F1E /* aeroplane@2x.png */; };
 		6092596F1D7670E300968F1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609258CA1D7670E300968F1E /* InfoPlist.strings */; };
@@ -297,6 +298,7 @@
 		609F8FAC1D7D402E0047E47E /* RestrictionsSchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestrictionsSchemeViewController.m; sourceTree = "<group>"; };
 		60ACFFB61D82424300C93F5B /* SetProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetProfileViewController.h; sourceTree = "<group>"; };
 		60ACFFB71D82424300C93F5B /* SetProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetProfileViewController.m; sourceTree = "<group>"; };
+		60FA69D01D89359900D15432 /* nodata.mobileconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = nodata.mobileconfig; path = "../../../../../Mac/003_Xcodeプロジェクトとか/__サンプルコード(Suzuki)/watarusuzuki.github.io/custom-profiles/nodata.mobileconfig"; sourceTree = "<group>"; };
 		A11B706E757E21436ABF10FA /* Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample-Chimera-ObjC/Pods-iOS-Sample-Chimera-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		F06AD4461D5D7FD3007B0842 /* iOS-Sample-Chimera-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sample-Chimera-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06AD44A1D5D7FD3007B0842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -571,6 +573,7 @@
 		F06AD4491D5D7FD3007B0842 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60FA69D01D89359900D15432 /* nodata.mobileconfig */,
 				F06AD44A1D5D7FD3007B0842 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -677,6 +680,7 @@
 				TargetAttributes = {
 					F06AD4451D5D7FD3007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F35G39V2UB;
 					};
 					F06AD45E1D5D7FD4007B0842 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -784,6 +788,7 @@
 				609259A21D7670E300968F1E /* step6@2x.png in Resources */,
 				609259951D7670E300968F1E /* popup_santa.png in Resources */,
 				609259811D7670E300968F1E /* Default-Landscape~ipad.png in Resources */,
+				608B5A641D893C86002390F3 /* nodata.mobileconfig in Resources */,
 				609259931D7670E300968F1E /* x29@2x.png in Resources */,
 				609259741D7670E300968F1E /* australia-large.png in Resources */,
 				609259771D7670E300968F1E /* boat.png in Resources */,
@@ -1107,6 +1112,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F35G39V2UB;
 				INFOPLIST_FILE = "iOS-Sample-Chimera-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wataru.iOS-Sample-Chimera-ObjC";
@@ -1121,6 +1127,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F35G39V2UB;
 				INFOPLIST_FILE = "iOS-Sample-Chimera-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wataru.iOS-Sample-Chimera-ObjC";

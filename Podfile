@@ -3,4 +3,6 @@ inhibit_all_warnings!
 
 target "iOS-Sample-Chimera-ObjC" do
   pod 'GoogleMaps'
+  pod 'CocoaAsyncSocket'
+  pod 'CocoaHTTPServer'
 end

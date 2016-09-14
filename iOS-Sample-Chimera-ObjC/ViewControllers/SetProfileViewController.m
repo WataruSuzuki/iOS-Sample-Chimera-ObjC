@@ -7,10 +7,12 @@
 //
 
 #import "SetProfileViewController.h"
+#import <CocoaHTTPServer/HTTPServer.h>
 
 @interface SetProfileViewController ()
 
 @property (nonatomic) NSArray * profileSetCases;
+@property (nonatomic) HTTPServer * myHTTPServer;
 
 @end
 
@@ -54,17 +56,48 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *fromTypeStr;
-    
     switch (indexPath.row) {
         case FROM_NETWORK:
-            fromTypeStr = @"https://watarusuzuki.github.io/custom-profiles/nodata.mobileconfig";
+            [self installProfileFromNetwork];
+            break;
+            
+        case FROM_LOCAL:
+            [self installProfileFromLocal];
             break;
             
         default:
             break;
     }
+}
+
+- (void)installProfileFromNetwork
+{
+    NSString *fromTypeStr = @"https://watarusuzuki.github.io/custom-profiles/nodata.mobileconfig";
     NSURL *url = [NSURL URLWithString:fromTypeStr];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (void)installProfileFromLocal
+{
+    self.myHTTPServer = [HTTPServer new];
+    [self.myHTTPServer setPort:8080];
+    
+    NSString *documentsPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    [self.myHTTPServer setDocumentRoot:documentsPath];
+    NSError *error = nil;
+    [self.myHTTPServer start:&error];
+    
+    NSString* filePath = [documentsPath stringByAppendingPathComponent:@"nodata.mobileconfig"];
+    
+    NSFileManager* fileManager = [[NSFileManager alloc] init];
+    if ([fileManager fileExistsAtPath:filePath]) {
+        [fileManager removeItemAtPath:filePath error:&error];
+    }
+    
+    NSString* resourcePath = [[NSBundle mainBundle] pathForResource:@"nodata" ofType:@"mobileconfig"];
+    [fileManager copyItemAtPath:resourcePath toPath:filePath error:&error];
+    
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/nodata.mobileconfig"];
     [[UIApplication sharedApplication] openURL:url];
 }
 
