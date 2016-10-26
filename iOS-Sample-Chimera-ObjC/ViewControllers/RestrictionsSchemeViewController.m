@@ -19,46 +19,46 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.myRestrictionsSchemeList = @[@"prefs:root=General&path=About",
-                                      @"prefs:root=General&path=ACCESSIBILITY",
-                                      @"prefs:root=AIRPLANE_MODE",
-                                      @"prefs:root=General&path=AUTOLOCK",
-                                      @"prefs:root=General&path=USAGE/CELLULAR_USAGE",
-                                      @"prefs:root=Brightness",
-                                      @"prefs:root=General&path=Bluetooth",
-                                      @"prefs:root=General&path=DATE_AND_TIME",
-                                      @"prefs:root=FACETIME",
-                                      @"prefs:root=General",
-                                      @"prefs:root=General&path=Keyboard",
-                                      @"prefs:root=CASTLE",
-                                      @"prefs:root=CASTLE&path=STORAGE_AND_BACKUP",
-                                      @"prefs:root=General&path=INTERNATIONAL",
-                                      @"prefs:root=LOCATION_SERVICES",
-                                      @"prefs:root=ACCOUNT_SETTINGS",
-                                      @"prefs:root=MUSIC",
-                                      @"prefs:root=MUSIC&path=EQ",
-                                      @"prefs:root=MUSIC&path=VolumeLimit",
-                                      @"prefs:root=General&path=Network",
-                                      @"prefs:root=NIKE_PLUS_IPOD",
-                                      @"prefs:root=NOTES",
-                                      @"prefs:root=NOTIFICATIONS_ID",
-                                      @"prefs:root=Phone",
-                                      @"prefs:root=Photos",
-                                      @"prefs:root=General&path=ManagedConfigurationList",
-                                      @"prefs:root=General&path=Reset",
-                                      @"prefs:root=Sounds&path=Ringtone",
-                                      @"prefs:root=Safari",
-                                      @"prefs:root=General&path=Assistant",
-                                      @"prefs:root=Sounds",
-                                      @"prefs:root=General&path=SOFTWARE_UPDATE_LINK",
-                                      @"prefs:root=STORE",
-                                      @"prefs:root=TWITTER",
-                                      @"prefs:root=General&path=USAGE",
-                                      @"prefs:root=VIDEO",
-                                      @"prefs:root=General&path=Network/VPN",
-                                      @"prefs:root=Wallpaper",
-                                      @"prefs:root=WIFI",
-                                      @"prefs:root=INTERNET_TETHERING"];
+    self.myRestrictionsSchemeList = @[@":root=General&path=About",
+                                      @":root=General&path=ACCESSIBILITY",
+                                      @":root=AIRPLANE_MODE",
+                                      @":root=General&path=AUTOLOCK",
+                                      @":root=General&path=USAGE/CELLULAR_USAGE",
+                                      @":root=Brightness",
+                                      @":root=General&path=Bluetooth",
+                                      @":root=General&path=DATE_AND_TIME",
+                                      @":root=FACETIME",
+                                      @":root=General",
+                                      @":root=General&path=Keyboard",
+                                      @":root=CASTLE",
+                                      @":root=CASTLE&path=STORAGE_AND_BACKUP",
+                                      @":root=General&path=INTERNATIONAL",
+                                      @":root=LOCATION_SERVICES",
+                                      @":root=ACCOUNT_SETTINGS",
+                                      @":root=MUSIC",
+                                      @":root=MUSIC&path=EQ",
+                                      @":root=MUSIC&path=VolumeLimit",
+                                      @":root=General&path=Network",
+                                      @":root=NIKE_PLUS_IPOD",
+                                      @":root=NOTES",
+                                      @":root=NOTIFICATIONS_ID",
+                                      @":root=Phone",
+                                      @":root=Photos",
+                                      @":root=General&path=ManagedConfigurationList",
+                                      @":root=General&path=Reset",
+                                      @":root=Sounds&path=Ringtone",
+                                      @":root=Safari",
+                                      @":root=General&path=Assistant",
+                                      @":root=Sounds",
+                                      @":root=General&path=SOFTWARE_UPDATE_LINK",
+                                      @":root=STORE",
+                                      @":root=TWITTER",
+                                      @":root=General&path=USAGE",
+                                      @":root=VIDEO",
+                                      @":root=General&path=Network/VPN",
+                                      @":root=Wallpaper",
+                                      @":root=WIFI",
+                                      @":root=INTERNET_TETHERING"];
     
 }
 
@@ -82,14 +82,24 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RestrictionsSchemeCell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = self.myRestrictionsSchemeList[indexPath.row];
+    NSString *prefixStr = @"prefs";
+    if ([[UIDevice currentDevice] systemVersion].floatValue >= 10.0) {
+        prefixStr = @"app-Prefs";
+    }
+    NSString *settingScheme = [prefixStr stringByAppendingString:self.myRestrictionsSchemeList[indexPath.row]];
+    cell.textLabel.text = settingScheme;
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSURL *url = [NSURL URLWithString:self.myRestrictionsSchemeList[indexPath.row]];
+    NSString *prefixStr = @"prefs";
+    if ([[UIDevice currentDevice] systemVersion].floatValue >= 10.0) {
+        prefixStr = @"app-Prefs";
+    }
+    NSString *settingScheme = [prefixStr stringByAppendingString:self.myRestrictionsSchemeList[indexPath.row]];
+    NSURL *url = [NSURL URLWithString:settingScheme];
     [[UIApplication sharedApplication] openURL:url];
 }
 
