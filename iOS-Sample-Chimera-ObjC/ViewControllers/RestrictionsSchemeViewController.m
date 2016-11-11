@@ -47,7 +47,7 @@
                                       @":root=General&path=ManagedConfigurationList",
                                       @":root=General&path=Reset",
                                       @":root=Sounds&path=Ringtone",
-                                      @":root=Safari",
+                                      @":root=SAFARI",
                                       @":root=General&path=Assistant",
                                       @":root=Sounds",
                                       @":root=General&path=SOFTWARE_UPDATE_LINK",
