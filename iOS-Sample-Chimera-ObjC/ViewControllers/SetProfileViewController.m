@@ -72,7 +72,7 @@
 
 - (void)installProfileFromNetwork
 {
-    NSString *fromTypeStr = @"https://watarusuzuki.github.io/apn-profiles/resources/nodata.mobileconfig";
+    NSString *fromTypeStr = @"https://watarusuzuki.github.io/APNBookmarkPage/resources/USA/nodata.mobileconfig";
     NSURL *url = [NSURL URLWithString:fromTypeStr];
     [[UIApplication sharedApplication] openURL:url];
 }
